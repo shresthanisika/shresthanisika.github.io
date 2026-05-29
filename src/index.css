@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Pinyon+Script&family=Parisienne&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Jost:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-caps: "Jost", sans-serif;
+  --font-script: "Alex Brush", cursive;
+  --font-pinyon: "Pinyon Script", cursive;
+  --font-parisienne: "Parisienne", cursive;
+  
+  --color-brand-beige: #F6E6D9;
+  --color-brand-maroon: #4A2B2D;
+  --color-brand-maroon-light: #643D40;
+  --color-brand-gold: #C5A880;
+}
+
+@layer utilities {
+  .serif-heading {
+    font-family: var(--font-serif);
+    word-spacing: 0.05em;
+  }
+  .caps-label {
+    font-family: var(--font-caps);
+  }
+  .script-accent {
+    font-family: var(--font-script);
+  }
+  .pinyon-accent {
+    font-family: var(--font-pinyon);
+  }
+  .parisienne-accent {
+    font-family: var(--font-parisienne);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FCF7F3;
+  color: #4A2B2D;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}

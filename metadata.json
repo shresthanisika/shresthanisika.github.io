@@ -1,0 +1,6 @@
+{
+  "name": "Yasaara Events",
+  "description": "Elegant, sophisticated, and organic event management services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
